@@ -10,7 +10,8 @@
 var km = prompt("Inserisci il numero di km del tuo viaggio");
 console.log(km);
 // Chiedere l'età del passeggero
-
+var età = prompt("Adesso inserisci la tua età");
+console.log(età);
 // Calcolare il prezzo del biglietto
 
 // Sconto età
