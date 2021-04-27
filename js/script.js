@@ -32,4 +32,4 @@ if(età > 65) {
   }
 
 // Output prezzo finale
-document.getElementById("prezzo").innerHTML = "Il prezzo del tuo biglietto per la tratta richiesta è di Euro " + prezzo;
+document.getElementById("prezzo").innerHTML = "Il prezzo del biglietto per la tratta richiesta è di Euro " + prezzo;
