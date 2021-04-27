@@ -19,17 +19,17 @@ var prezzo = (0.21 * km).toFixed(2);
 console.log(prezzo);
 
 // Sconto età
-var prezzo_sconto
+var sconto
 
 if(età < 18) {
-  prezzo_sconto = (prezzo - 20 / 100);
-  console.log(prezzo_sconto);
+  prezzo = (prezzo - 20 / 100).toFixed(2);
+  console.log(sconto);
 }
 
 if(età > 65) {
-    prezzo_sconto = (prezzo - 40 / 100);
-    console.log(prezzo_sconto);
+    prezzo = (prezzo - 40 / 100).toFixed(2);
+    console.log(sconto);
   }
-// Arrotondamento prezzo
 
 // Output prezzo finale
+document.getElementById("prezzo").innerHTML = "Il prezzo del tuo biglietto per la tratta richiesta è di Euro " + prezzo;
