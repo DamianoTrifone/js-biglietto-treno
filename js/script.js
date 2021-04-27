@@ -15,7 +15,7 @@ var età = parseInt(prompt("Adesso inserisci la tua età"));
 console.log(età);
 
 // Calcolare il prezzo del biglietto
-var prezzo = 0.021 * km;
+var prezzo = (0.21 * km).toFixed(2);
 console.log(prezzo);
 
 // Sconto età
