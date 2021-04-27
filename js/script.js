@@ -11,14 +11,25 @@ var km = prompt("Inserisci il numero di km del tuo viaggio");
 console.log(km);
 
 // Chiedere l'età del passeggero
-var età = prompt("Adesso inserisci la tua età");
+var età = parseInt(prompt("Adesso inserisci la tua età"));
 console.log(età);
 
 // Calcolare il prezzo del biglietto
 var prezzo = 0.021 * km;
 console.log(prezzo);
-// Sconto età
 
+// Sconto età
+var prezzo_sconto
+
+if(età < 18) {
+  prezzo_sconto = (prezzo - 20 / 100);
+  console.log(prezzo_sconto);
+}
+
+if(età > 65) {
+    prezzo_sconto = (prezzo - 40 / 100);
+    console.log(prezzo_sconto);
+  }
 // Arrotondamento prezzo
 
 // Output prezzo finale
