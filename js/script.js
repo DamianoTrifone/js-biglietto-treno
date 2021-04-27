@@ -6,8 +6,9 @@
 // L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo). Questo richiederà un minimo di ricerca.
 
 
-// Chiedere il numero dei km
-
+// Chiedere il numero di km
+var km = prompt("Inserisci il numero di km del tuo viaggio");
+console.log(km);
 // Chiedere l'età del passeggero
 
 // Calcolare il prezzo del biglietto
